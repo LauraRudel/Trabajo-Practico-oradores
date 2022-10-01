@@ -12,8 +12,7 @@
     background-size: cover;
     background-position: center;
     background-color: rgba(0, 0, 0, 0.726);
-    background-blend-mode: darken;
-   
+    background-blend-mode: darken; 
 }
 
 .wrap-texto {
