@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+   
 }
 
 .wrap {
@@ -11,6 +12,8 @@
     background:  url(./ba1.jpg);
     background-size: cover;
     background-position: center;
+    background-color: rgba(0, 0, 0, 0.726);
+    background-blend-mode: darken;
    
 }
 
@@ -20,37 +23,19 @@
     width: 50%;
 }
 
-.wrap1 {
-    width: 100vw;
-    height:100vh;
-    display: flex;
-    align-items: center;
-    justify-content: right;
-    background:  url(./honolulu.jpg);
-    background-size: cover;
-    background-position: center;
+.card-img-top {
+    margin: 1em;
+    padding: 1em;
+    float: left;
 }
 
-.wrap-texto1 {
-    color: #f8f1f1;
-    text-align: right;
-    width: 50%;
-    height: 120px;
-    left: 685px;
-    top: 367px;
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 24px;
-        text-align: right;
-
-color: #FFFFFF;
+#fecha-lugar{
+    background-color: rgb(61, 61, 61);
 }
+
 
 footer {
-    border: 10px,20px,10px;
+    border: 10px,10px,10px;
     box-sizing: border-box;
     background: rgb(2,0,36);
     background: linear-gradient(90deg, rgb(29,60,78) 0%, rgb(29,60,78) 35%, rgb(54, 109, 141) 100%);
@@ -61,3 +46,41 @@ footer {
     display: inline-flexbox;
 }
 
+#boton-orador {
+    color: #f8f1f1;
+}
+
+#chico {
+    font-size:small;
+}
+
+.fw-bolder {
+    font-size:x-large;
+    color: black;
+    font-family: arial;
+}
+
+#arriba {
+    
+    background: rgba(0, 0, 0, 0.726);
+    background: linear-gradient(90deg, rgb(70, 73, 75) 0%, rgb(99, 109, 116) 3rgb(109, 119, 124)141) 100%;
+    font-size: 20px;
+    font-style:inherit;
+    
+    min-height: 10vh;
+    display: inline-flexbox;
+}
+
+#color-verde {
+    color: rgb(114, 216, 114);
+}
+
+
+
+#conferencia2,#oradores2,#fecha2,#conviertete2 {
+    color: #f8f1f1;
+}
+
+#textoarriba{
+    color: #f8f1f1;
+}
