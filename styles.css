@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+}
+
+.wrap {
+    width: 100vw;
+    height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:  url(./ba1.jpg);
+    background-size: cover;
+    background-position: center;
+   
+}
+
+.wrap-texto {
+    color: #f8f1f1;
+    text-align: right;
+    width: 50%;
+}
+
+.wrap1 {
+    width: 100vw;
+    height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    background:  url(./honolulu.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.wrap-texto1 {
+    color: #f8f1f1;
+    text-align: right;
+    width: 50%;
+    height: 120px;
+    left: 685px;
+    top: 367px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+        text-align: right;
+
+color: #FFFFFF;
+}
+
+footer {
+    border: 10px,20px,10px;
+    box-sizing: border-box;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgb(29,60,78) 0%, rgb(29,60,78) 35%, rgb(54, 109, 141) 100%);
+    font-size: 20px;
+    font-style:inherit;
+    color: white;
+    min-height: 10vh;
+    display: inline-flexbox;
+}
+
